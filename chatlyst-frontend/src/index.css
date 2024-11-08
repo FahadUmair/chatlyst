@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-blur-bg-40 {
+    @apply bg-opacity-40 backdrop-blur-sm backdrop-saturate-[185%];
+}
