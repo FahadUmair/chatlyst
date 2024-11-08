@@ -18,8 +18,10 @@ Let's discuss how to run both the Frontend and the Backend
 - Create a virtual environment by typing `python -m venv .venv` or `python3 -m venv .venv` depending upon the version of Python you have.
 - Now activate the virtual environment by typing `source .venv/bin/activate`.
 - Check if the virtual environment is active by typing `which python`.
-- We are now done with setting up the virtual environment. If you are facing issues so far, please visit [https://fastapi.tiangolo.com/virtual-environments/#activate-the-virtual-environment].
+- We are now done with setting up the virtual environment.
+- (Optional) If you are facing issues so far, please visit [https://fastapi.tiangolo.com/virtual-environments/#activate-the-virtual-environment].
 - Now install FastAPI by typing `pip install "fastapi[standard]"` in the terminal.
+- (Optional) If you are facing any problems here then visit [https://fastapi.tiangolo.com/#installation].
 - Finally, run the application by typing `fastapi dev main.py`.
 - The server will be up and running.
 
